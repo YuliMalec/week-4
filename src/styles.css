@@ -1,3 +1,7 @@
-p {
-    color:brown;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+hero h1 {
+   font-family:  'Playfair Display', serif; 
 }
