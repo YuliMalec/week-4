@@ -7,13 +7,21 @@
 body {
     font-family: var(--defoult-font-family);
 }
+.project-description h2{
+    font-size: 54px;
+}
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
 
 .hero h1 {
     font-family:  var(----heading-font-family);
    font-weight: bold;
    font-size: 96px;
 }
-  p {
+  .p {
     font-size:  36px;
     color: #272142;
     font-weight:bold;   
@@ -34,8 +42,30 @@ body {
     background: var(--primary-color);
     border-radius: 4px;
     padding:12px 20px;
-    
     color: aliceblue;
     font-size: 18px;
     line-height: 7px;
+}
+a.btn-primary-outline {
+    color:var(--primary-color);
+    border: 2px solid var(--primary-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding:12px 20px;
+}
+.project-description {
+    padding: 120px 60px ;
+}
+@media (max-width: 900px) {
+    .project-description {
+        padding: 0;
+        text-align: center;
+
+    }
+    .hero h1 {
+        font-size: 60px;
+    }
+    .project-description h2 {
+font-size: 36px;
+    }
 }
