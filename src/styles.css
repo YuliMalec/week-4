@@ -94,3 +94,20 @@ font-size: 36px;
         padding: 0;
     }
 }
+.container-content h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+.container-content h2 {
+    font-size: 18px;
+    font-family: var(--defoult-font-family);
+    font-weight: bold;
+    
+}
+.container-content {
+    padding: 160px 20px;
+}
+.content {
+    margin: 30px;
+    
+}
