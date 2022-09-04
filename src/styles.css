@@ -36,7 +36,31 @@ p {
  img {
     border-radius: 10px;
 }
+nav {
+    padding: 20px 0;
+}
+nav h3 a {
+    text-decoration: none;
+    color: #272142;
+    font-family: var(--defoult-font-family);
+    
+}
 
+nav a:hover, nav li.active a {
+    color: var(--primary-color);
+}
+li {
+    list-style: none;
+    line-height: 42px;
+    display: inline;
+    margin: 30px 5px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #272142;
+    
+}
 .hero h1 {
     font-family:  var(----heading-font-family);
    font-weight: bold;
@@ -77,6 +101,7 @@ a.btn-primary-outline {
 .project-description {
     padding: 120px 60px ;
 }
+
 @media (max-width: 900px) {
     .project-description {
         padding: 0;
@@ -93,6 +118,10 @@ font-size: 36px;
         text-align: center;
         padding: 0;
     }
+    nav h3 a {
+        display: none;
+    }
+    
 }
 .content h1 {
     font-size: 64px;
