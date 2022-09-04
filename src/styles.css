@@ -61,6 +61,23 @@ nav ul a {
     color: #272142;
     
 }
+footer .email-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    
+}
+footer .email-link:hover {
+    color: var(--primary-color);
+}
+footer .social-links img{
+    color: var(--primary-color);
+    background: var(--secondary-color);
+}
+footer .social-links a{
+    
+    margin: 0 60px;
+}
 .hero h1 {
     font-family:  var(----heading-font-family);
    font-weight: bold;
