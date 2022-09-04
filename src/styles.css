@@ -69,14 +69,22 @@ footer .email-link{
 }
 footer .email-link:hover {
     color: var(--primary-color);
-}
-footer .social-links img{
-    color: var(--primary-color);
-    background: var(--secondary-color);
-}
-footer .social-links a{
     
+}
+
+footer .social-links a{
     margin: 0 60px;
+}
+.contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 15px;
+}
+.contact-box h4 {
+    font-size: 48px;
+}
+.contact-box p{
+    margin: 0;
 }
 .hero h1 {
     font-family:  var(----heading-font-family);
@@ -138,7 +146,8 @@ font-size: 36px;
     nav h3 a {
         display: none;
     }
-    
+ 
+
 }
 .content h1 {
     font-size: 64px;
