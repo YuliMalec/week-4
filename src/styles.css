@@ -129,10 +129,11 @@ a.btn-primary-outline {
 
 @media (max-width: 900px) {
     .project-description {
-        padding: 0;
+        
         text-align: center;
-
+        padding: 60px 60px;
     }
+    
    
     .hero h1 {
         font-size: 60px;
@@ -147,9 +148,9 @@ font-size: 36px;
     nav h3 a {
         display: none;
     }
- 
-
 }
+
+
 .content h1 {
     font-size: 64px;
     line-height: 80px;
