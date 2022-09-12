@@ -146,13 +146,19 @@ font-size: 36px;
         text-align: center;
         padding: 0;
         
+        
     }
     nav h3 a {
         display: none;
     }
+   footer .social-links > a  {
+        margin:10px;
 }
 
-
+@media (min-width: 300px){
+     
+    }
+}
 .content h1 {
     font-size: 64px;
     line-height: 80px;
